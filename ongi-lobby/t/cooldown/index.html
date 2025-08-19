@@ -4,15 +4,28 @@
   <meta charset="UTF-8">
   <title>90s Cooldown Timer</title>
   <link rel="stylesheet" href="../../assets/css/style.css">
-  <script defer src="../../assets/js/cooldown.js"></script>
+  <script defer src="cooldown.js"></script>
+  <style>
+    body { text-align: center; padding: 2em; }
+    #timer { font-size: 3em; margin: 20px 0; }
+    #quote-box { margin-top: 20px; font-size: 1.2em; font-style: italic; }
+    button { margin: 10px; padding: 10px 20px; font-size: 1em; }
+  </style>
 </head>
 <body>
-  <header><h1>⏱ 90s Cooldown Timer</h1></header>
-  <main style="text-align:center;padding:2em;">
-    <div id="timer" style="font-size:3em;">01:30</div>
-    <button onclick="startTimer()">Start</button>
-    <button onclick="resetTimer()">Reset</button>
+  <header>
+    <h1>⏱️ 90s Cooldown Timer</h1>
+  </header>
+
+  <main>
+    <div id="timer">01:30</div>
+    <button onclick="startCooldown()">Start</button>
+    <button onclick="location.reload()">Reset</button>
     <p>Guide: Inhale 4s → Hold 2s → Exhale 4s</p>
+
+    <div id="quote-box">
+      준비가 되셨나요? 시작하면 치유의 메시지가 나옵니다.
+    </div>
   </main>
 </body>
 </html>
