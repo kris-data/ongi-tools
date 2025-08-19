@@ -1,0 +1,15 @@
+{
+  "tools": [
+    {
+      "slug": "cooldown",
+      "title": "90s Cooldown Timer",
+      "description": "Breathe 4-2-4 for 90s to cool down before reacting.",
+      "emotions": [
+        "Upset",
+        "Frustrated",
+        "Angry"
+      ],
+      "href": "t/cooldown/index.html"
+    }
+  ]
+}
